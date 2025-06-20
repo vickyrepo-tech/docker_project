@@ -1,7 +1,7 @@
 https://storebits.docker.com/ee/rhel/sub-0264dcdc-7e65-41e9-b187-09ad62c1ca2b/rhel/7/x86_64/stable-17.03/Packages/
 
 wget https://storebits.docker.com/ee/rhel/sub-0264dcdc-7e65-41e9-b187-09ad62c1ca2b/rhel/7/x86_64/stable-17.03/Packages/docker-ee-17.03.0.ee.1-1.el7.centos.x86_64.rpm
-Hello THis is for testing 
+This is the another change  
 
 yum install -y libtool-ltdl.x86_64 libseccomp.x86_64
 
@@ -9,11 +9,11 @@ yum install -y libtool-ltdl.x86_64 libseccomp.x86_64
 wget https://storebits.docker.com/ee/rhel/sub-0264dcdc-7e65-41e9-b187-09ad62c1ca2b/rhel/7/x86_64/stable-17.03/Packages/docker-ee-selinux-17.03.0.ee.1-1.el7.centos.noarch.rpm
 
 
-rpm -Uvh docker-ee-selinux-17.03.0.ee.1-1.el7.centos.noarch.rpm
+#rpm -Uvh docker-ee-selinux-17.03.0.ee.1-1.el7.centos.noarch.rpm
 
-rpm -Uvh docker-ee-17.03.0.ee.1-1.el7.centos.x86_64.rpm
+#rpm -Uvh docker-ee-17.03.0.ee.1-1.el7.centos.x86_64.rpm
 
-docker --version
+#docker --version
 
 docker image ls
 docker pull <image-id> 
